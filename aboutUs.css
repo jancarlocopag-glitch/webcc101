@@ -1,0 +1,101 @@
+/* ===========================
+   GLOBAL STYLES
+=========================== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ===========================
+   NAVIGATION BAR
+=========================== */
+.navbar {
+    width: 100%;
+    padding: 15px 50px;
+    padding-bottom: 10px;
+    background-color: #1e4b9e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* Changed from space-evenly to space-between for left-center-right layout */
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Logo Title */
+.navbar h2 {
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Logo Image */
+.logoImg img {
+    width: 100px;
+    border-radius: 500px;
+
+}
+
+/* Nav Links */
+.nav-links {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    /* Add some spacing between links */
+}
+
+.nav-links a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* ===========================
+   PAGE TITLE & TEXT
+=========================== */
+h1 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+
+/* ===========================
+   LIST STYLING
+=========================== */
+ul {
+    max-width: 300px;
+    margin: auto;
+    font-size: 18px;
+}

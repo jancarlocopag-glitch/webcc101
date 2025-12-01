@@ -3,6 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.logo {
+    text-decoration: none;
+    color: black;
+}
+
 /* NAVIGATION BAR */
 .navbar {
     width: 100%;

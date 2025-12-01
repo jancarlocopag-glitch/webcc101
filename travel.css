@@ -10,7 +10,8 @@ body {
     background: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    list-style: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,19 +19,21 @@ body {
     z-index: 1000;
 }
 
-
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 
 
 /* Hero Section */
 .hero {
     width: 100%;
-    height: 500px;
-    background-image: url('');
-    /* Mt. Fuji Background */
+    height: 900px;
+    background-image: url('mt.fuji.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +43,6 @@ body {
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.3);
-    /* Dark overlay to make text readable */
     padding: 20px 30px;
     border-radius: 8px;
 }

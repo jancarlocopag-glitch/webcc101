@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/",
-            "destination": "/WEBTYPESHI/travel.html"
+            "destination": "/WEBTYPESHI"
         }
     ]
 }

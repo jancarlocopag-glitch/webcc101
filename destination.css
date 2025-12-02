@@ -1,14 +1,20 @@
 .logo {
     text-decoration: none;
+    /* Remove underline from the logo */
     color: black;
+    /* Set the logo color to black */
 }
 
 
 .navbar h2 {
     text-decoration: none;
+    /* Remove underline from the navbar title */
     color: black;
+    /* Set the navbar title color to black */
     font-size: 40px;
+    /* Set the font size of the navbar title */
     list-style: none;
+    /* Remove list style */
 }
 
 
@@ -16,86 +22,130 @@
 /* NAVIGATION BAR */
 .navbar {
     width: 100%;
+    /* Make the navbar full width */
     padding: 15px 50px;
+    /* Add padding to the top, bottom, left, and right */
     background: rgb(255, 255, 255);
+    /* Set a fallback background color (white) */
     background-color: #1e4b9e;
+    /* Set the background color */
     display: flex;
+    /* Use flexbox for layout */
     align-items: center;
+    /* Vertically align items */
     justify-content: space-evenly;
+    /* Distribute items evenly */
     list-style: none;
+    /* Remove list style */
     position: fixed;
+    /* Fix the navbar at the top of the viewport */
     top: 0;
+    /* Position the navbar at the top */
     left: 0;
+    /* Position the navbar at the left */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
     z-index: 1000;
+    /* Ensure the navbar stays on top */
 }
 
 .nav-links a {
     text-decoration: none;
+    /* Remove underline from the links */
     color: black;
+    /* Set the link color to black */
     font-size: 20px;
+    /* Set the font size of the links */
 }
 
 .logoImg img {
     width: 100px;
+    /* Set the width of the logo image */
     border-radius: 500px;
+    /* Make the logo image circular */
     float: left;
+    /* Float the logo image to the left */
 }
 
 h2 {
     text-decoration: none;
+    /* Remove underline */
     color: black;
+    /* Set the color to black */
     font-size: 40px;
+    /* Set the font size */
     list-style: none;
+    /* Remove list style */
 }
 
 body {
     margin: 0;
+    /* Reset default margin */
     font-family: Arial, sans-serif;
+    /* Set the font family */
 }
 
 /* Page Title */
 h1 {
     margin-top: 160px;
+    /* Add top margin */
     text-align: center;
+    /* Center the text */
     font-size: 40px;
+    /* Set the font size */
 }
 
 /* Destination Section */
 h2 {
     font-size: 28px;
+    /* Set the font size */
     margin: 40px 0 10px;
+    /* Add margin */
     text-align: center;
+    /* Center the text */
 }
 
 p {
     text-align: center;
+    /* Center the text */
     max-width: 600px;
+    /* Set a maximum width */
     margin: auto;
+    /* Center the element horizontally */
     font-size: 18px;
+    /* Set the font size */
 }
 
 /* Optional: Add cards like the main page */
 .destination-box {
     width: 80%;
+    /* Set the width */
     margin: auto;
+    /* Center horizontally */
     padding: 20px;
+    /* Add padding */
     text-align: center;
+    /* Center the text */
 }
 
 /* Destinations Section */
 .destinations {
     padding: 50px;
+    /* Add padding */
     text-align: center;
+    /* Center the text */
 }
 
 .destinations h2 {
     font-size: 32px;
+    /* Set the font size */
     margin-bottom: 30px;
+    /* Add bottom margin */
 }
 
 .cards {
     display: flex;
+    /* Use flexbox for layout */
     flex-direction: column;
     /* Changed from default (row) to column for vertical stacking */
     align-items: center;

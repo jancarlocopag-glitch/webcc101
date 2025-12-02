@@ -1,101 +1,122 @@
-/* ===========================
-   GLOBAL STYLES
-=========================== */
+/* aboutUs.css */
+
+/* GLOBAL STYLES */
 body {
     margin: 0;
+    /* Reset default margin */
     font-family: Arial, sans-serif;
+    /* Set font family */
 }
 
-.logo {
-    text-decoration: none;
-    color: black;
-}
-
-
-/* ===========================
-   NAVIGATION BAR
-=========================== */
+/* NAVIGATION BAR */
 .navbar {
     width: 100%;
+    /* Full width */
     padding: 15px 50px;
+    /* Padding around the navbar */
     padding-bottom: 10px;
     background-color: #1e4b9e;
+    /* Background color */
     display: flex;
+    /* Use flexbox for layout */
     align-items: center;
+    /* Align items vertically */
     justify-content: space-evenly;
-    /* Changed from space-evenly to space-between for left-center-right layout */
+    /* Distribute items evenly */
     position: fixed;
+    /* Fixed position at the top */
     top: 0;
     left: 0;
     list-style: none;
+    /* Remove list style */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Add shadow */
     z-index: 1000;
+    /* Ensure it stays on top */
 }
 
 /* Logo Title */
 .navbar h2 {
     color: black;
+    /* Text color */
     font-size: 40px;
+    /* Font size */
     text-decoration: none;
+    /* Remove underline */
     list-style: none;
+    /* Remove list style */
 }
 
 /* Logo Image */
 .logoImg img {
     width: 100px;
+    /* Image width */
     border-radius: 500px;
-
+    /* Circular image */
 }
 
 /* Nav Links */
 .nav-links {
-
     list-style: none;
+    /* Remove list style */
     margin: 0;
+    /* Reset default margin */
     padding: 0;
+    /* Reset default padding */
 }
 
 .nav-links li {
     margin-left: 20px;
-    /* Add some spacing between links */
+    /* Margin between links */
 }
 
 .nav-links a {
     color: black;
+    /* Link color */
     font-size: 20px;
+    /* Font size */
     text-decoration: none;
+    /* Remove underline */
 }
 
-
-/* ===========================
-   PAGE TITLE & TEXT
-=========================== */
+/* PAGE TITLE & TEXT */
 h1 {
     text-align: center;
+    /* Center text */
     margin-top: 120px;
+    /* Margin at the top */
     font-size: 40px;
+    /* Font size */
     padding-top: 50px;
+    /* Padding at the top */
 }
 
 h2 {
     text-align: center;
+    /* Center text */
     margin-top: 40px;
+    /* Margin at the top */
     font-size: 28px;
+    /* Font size */
 }
 
 p {
     text-align: center;
+    /* Center text */
     font-size: 18px;
+    /* Font size */
     max-width: 600px;
+    /* Maximum width */
     margin: 10px auto;
+    /* Margin at the top and bottom, auto for horizontal centering */
 }
 
-
-/* ===========================
-   LIST STYLING
-=========================== */
+/* LIST STYLING */
 ul {
     max-width: 300px;
+    /* Maximum width */
     margin: auto;
+    /* Auto for horizontal centering */
     font-size: 18px;
+    /* Font size */
 }

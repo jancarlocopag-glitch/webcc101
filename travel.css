@@ -1,207 +1,220 @@
-/* GLOBAL STYLES */
 body {
     margin: 0;
-    /* Reset default margin */
+
     font-family: Arial, sans-serif;
-    /* Set font family */
+
 }
 
-/* NAVIGATION BAR */
+
 .navbar {
     width: 100%;
-    /* Full width */
+
     padding: 15px 50px;
-    /* Padding around the navbar */
+
     padding-bottom: 10px;
     background-color: #1e4b9e;
-    /* Background color */
+
     display: flex;
-    /* Use flexbox for layout */
+
     align-items: center;
-    /* Align items vertically */
+
     justify-content: space-evenly;
-    /* Distribute items sa nav bar evenly */
+
     position: fixed;
-    /* Fixed position at the top */
+
     top: 0;
     left: 0;
     list-style: none;
-    /* Remove list style */
+
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    /* Add shadow */
+
     z-index: 1000;
-    /* Ensure it stays on top */
+
 }
 
-/* Logo Title */
+
 .navbar h2 {
-    color: black;
-    /* Text color */
+    color: rgb(255, 255, 255);
+
     font-size: 40px;
-    /* Font size */
+
     text-decoration: none;
-    /* Remove underline sa hyperlink */
+
     list-style: none;
-    /* Remove list style */
+
 }
 
-/* Logo Image */
+
 .logoImg img {
     width: 100px;
-    /* Image width */
+
     border-radius: 500px;
-    /* Circular image */
+
     float: left;
-    /* Float to the left */
+
 }
 
-/* Nav Links */
-.nav-links a {
+
+.nav-links {
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
     display: flex;
-    color: black;
-    /* Link color */
-    font-size: 20px;
-    /* Font size */
-    text-decoration: none;
-    /* Remove underline sa hyperlink */
 }
 
 .nav-links li {
     margin-left: 20px;
-    /* Margin between links */
+
 }
 
-/* HERO SECTION */
+.nav-links a {
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+
 .hero {
     width: 100%;
-    /* Full width */
+
     height: 900px;
-    /* Height of the hero section */
+
     background-image: url('mt.fuji.jpeg');
-    /* Background image */
+
     background-size: cover;
-    /* Cover the entire area */
+
     background-position: center;
-    /* Center the image */
+
     background-repeat: no-repeat;
-    /* para di ma repeat the image */
+
     display: flex;
-    /* Use flexbox for layout */
+
     justify-content: center;
-    /* Center content horizontally */
+
     align-items: center;
-    /* Center content vertically */
+
 }
 
 .text-box {
     text-align: center;
-    /* Center text */
+
     color: white;
-    /* Text color */
+
     background: rgba(0, 0, 0, 0.3);
-    /* Semi-transparent background */
+
     padding: 20px 30px;
-    /* Padding around the text */
+
     border-radius: 8px;
-    /* Rounded corners */
+
 }
 
 .text-box h1 {
     font-size: 50px;
-    /* Font size */
+
     margin-bottom: 10px;
-    /* Margin at the bottom */
+
 }
 
 .text-box p {
     font-size: 22px;
-    /* Font size */
+
     margin-bottom: 20px;
-    /* Margin at the bottom */
+
 }
 
 .btn {
     padding: 12px 25px;
-    /* Padding around the button text */
+
     background-color: #1e4b9e;
-    /* Background color */
+
     color: white;
-    /* Text color */
+
     border: none;
-    /* Remove border */
+
     font-size: 18px;
-    /* Font size */
+
     border-radius: 6px;
-    /* Rounded corners */
+
     cursor: pointer;
-    /* Change cursor to pointer on hover */
+
 }
 
 .btn:hover {
     background-color: #163876;
-    /* Darker background on hover */
+
 }
 
-/* DESTINATIONS SECTION */
+
 .destinations {
     padding: 50px;
-    /* Padding around the section */
+
     text-align: center;
-    /* Center text */
+
 }
 
 .destinations h2 {
     font-size: 32px;
-    /* Font size */
+
     margin-bottom: 30px;
-    /* Margin at the bottom */
+
 }
 
 .cards {
     display: flex;
-    /* Use flexbox for layout */
+
     justify-content: center;
-    /* Center content horizontally */
+
     gap: 20px;
-    /* Gap between cards */
+
     margin-top: 30px;
-    /* Margin at the top */
+
 }
 
 .card {
     width: 250px;
-    /* Card width */
+
     background: white;
-    /* Background color */
+
     border-radius: 10px;
-    /* Rounded corners */
+
     padding: 15px;
-    /* Padding inside the card */
+
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    /* Shadow effect */
+
 }
 
 .card img {
     width: 100%;
-    /* Image width */
+
     height: 150px;
-    /* Image height */
+
     object-fit: cover;
-    /* Cover the area */
+
     border-radius: 8px;
-    /* Rounded corners */
+
 }
 
 .card h3 {
     margin-top: 10px;
-    /* Margin at the top */
+
     font-size: 20px;
-    /* Font size */
+
 }
 
 .card p {
     font-size: 14px;
-    /* Font size */
+
     color: #555;
-    /* Text color */
+
 }

@@ -34,11 +34,10 @@ body {
 
 
 .navbar h2 {
-    color: rgb(255, 255, 255);
-
-    font-size: 40px;
-
     text-decoration: none;
+
+    color: white;
+    font-size: 40px;
 
     list-style: none;
 
